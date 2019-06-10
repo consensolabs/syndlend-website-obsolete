@@ -8,6 +8,7 @@ import Page2 from './Page2';
 import Page3 from './Page3';
 import Page4 from './Page4';
 import Page5 from './Page5';
+import Page6 from './Page6';
 import Footer from './Footer';
 import './static/style';
 
@@ -39,13 +40,13 @@ class Home extends React.PureComponent {
       [
         <Header key="header" className={this.state.showShadow ? 'show-shadow' : ''} />,
         <Banner key="banner" isMobile={this.state.isMobile} navToShadow={this.navToShadow} />,
-        <Page1 key="page1" />,
         <Page2 key="page2" />,
+        <Page1 key="page1" />,
         <Page3 key="page3" />,
         <Page4 key="page4" isMobile={this.state.isMobile} />,
-        <Page5 key="page5" />,
+        <Page6 key="page6" />,
         <Footer key="footer" />,
-        <DocumentTitle title="Ant-V" />,
+        <DocumentTitle title="SyndLend" />,
       ]
     );
   }

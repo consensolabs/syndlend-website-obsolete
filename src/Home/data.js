@@ -1,56 +1,62 @@
+import marketplace from './static/images/marketplace.svg';
+import source from './static/images/coding.svg';
+
 export const assets = 'https://gw.alipayobjects.com/os/s/prod/antv/assets';
 const base = 'https://antv.alipay.com/';
+
+
 export const page1 = [
   {
     img: `${assets}/image/icon/g2-c94ef.svg`,
-    href: `${base}zh-cn/g2/3.x/index.html`,
-    title: 'G2',
-    description: ' 是以数据为驱动，具有高度的易用性和扩展性的可视化图形语法。',
+    href: 'http://demo.consensolabs.com/syndlend',
+    title: 'Quick Demo',
+    description: 'A sneak and peak into the SyndLend application',
   },
   {
-    img: `${assets}/image/icon/g6-b4554.svg`,
-    title: 'G6',
-    href: `${base}zh-cn/g6/1.x/index.html`,
-    description: ' 是一套便捷、动态和富有交互的流程图和关系分析的图表库。',
+    img: marketplace,
+    title: 'R3 Marketplace',
+    href: 'https://marketplace.r3.com/dashboard',
+    description: 'Find our application at R3 Marketplace',
   },
   {
-    img: `${assets}/image/icon/f2-d360c.svg`,
-    title: 'F2',
-    href: `${base}zh-cn/f2/3.x/index.html`,
-    description: ' 是一套精简、高性能、易扩展的的移动端图表库。',
+    img: source,
+    title: 'Tools and Support',
+    href: 'https://github.com/consensolabs/loan-syndication-client',
+    description: 'Docs, open source tools for the SyndLend to support seamless integration',
   },
 ];
 
 export const page3 = [
   {
     img: `${assets}/image/home/features-simple-9617c.svg`,
-    title: '简单方便',
-    description: '从数据出发，仅需几行代码就可以轻松获得想要的图表展示效果。',
+    title: 'Convenient and efficient',
+    description: 'Instant and easy deployment to devise an efficient syndicated loan market',
   },
   {
     img: `${assets}/image/home/features-professional-1c6d1.svg`,
-    title: '专业可靠',
-    description: '大量产品实践之上，提供绘图引擎，完备图形语法以及专业设计规范。',
+    title: 'Transparent and privacy preserved',
+    description: 'Each entity receives all the relevant information about the loan, market status without having to trust the single source',
   },
   {
     img: `${assets}/image/home/features-powerful-243e3.svg`,
-    title: '无限可能',
-    description: '任何图表，都可以基于图形语法灵活绘制，满足你无限的创意。',
+    title: 'Quicker settlement',
+    description: 'Integration of the token system and instant verification through smart contracts speeds up the settlement time',
   },
 ];
 
 export const page4 = [
   {
-    name: '陈为',
-    profile: '浙江大学计算机学院 CAD & CG 国家重点实验室教授 可视化专家',
-    avatar: 'https://os.alipayobjects.com/rmsportal/CcFeLxXurbQmwrT.jpg',
-    comment: '在多年可视化设计与开发的积累基础上，蚂蚁金服团队推出了 AntV 产品，这是工业界在基础可视化语法与实践方面发出的最强声音，也是工业界与学术界一道推进可视化研发进展的最佳利器。',
+    name: 'Richard Gendal Brown',
+    profile: 'Chief Technology Officer, R3',
+    avatar: 'https://pbs.twimg.com/profile_images/789922075238596610/9YEriL3__400x400.jpg',
+    comment: 'With Corda as an asset ledger, bank or other firm can issue assets (cash, equities, even commercial paper or syndicated loans) on to the ledger and have them be directly owned and seamlessly transferred to other members of an appropriate business network in near-real-time and with settlement finality.',
   },
   {
-    name: '林峰',
-    profile: '爱烹饪的数据可视化攻城狮',
-    avatar: 'https://zos.alipayobjects.com/rmsportal/wtkIALmYDSmOIiAalkdv.jpg',
-    comment: 'G2 是面粉，ECharts 是面条，皆微小但美好，因小食材怀大梦想，助力共筹东方巨龙崛起之盛宴，迎四海饕客。',
+    name: 'Genpact',
+    profile: 'Professional services',
+    avatar: 'https://banner2.kisspng.com/20181127/jco/kisspng-logo-genpact-brand-portable-network-graphics-produ-genpact-logo-12-vector-logos-5bfceaf5414308.3508120715433018772673.jpg',
+    comment: 'With a decentralized market, a distributed ledger system could serve as an asset register' +
+    'and ledger for both the primary and secondary markets. ',
   },
 ];
 
@@ -63,4 +69,10 @@ export const page5 = [
   `${assets}/image/home/jd-23e52.png`,
   `${assets}/image/home/yunos-2edef.png`,
   `${assets}/image/home/cainiao-40fc8.png`,
+];
+
+export const footer = [
+    { text: 'Twitter', src: 'https://twitter.com/consensolabs' },
+    { text: 'GitHub', src: 'https://github.com/consensolabs' },
+    { text: 'Contact', src: 'mailto:admin@consensolabs.com' },
 ];

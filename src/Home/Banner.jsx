@@ -5,6 +5,7 @@ import { Button } from 'antd';
 import { Element } from 'rc-scroll-anim';
 import BannerImage from './BannerImage';
 import { assets } from './data';
+// import whitepaper from './static/assets/fedlend-whitepaper-v1.pdf';
 
 class Banner extends React.PureComponent {
   static propTypes = {
@@ -31,15 +32,17 @@ class Banner extends React.PureComponent {
             className={`${className}-text-wrapper`}
             delay={300}
           >
-            <h1 key="h1">让数据栩栩如生</h1>
+            <h1 key="h1">SyndLend</h1>
             <p className="main-info" key="p">
-              AntV 是蚂蚁金服全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践。
+             DLT based syndicated loan platform to create a speedy, cost efficient,
+                transparent, dis-intermediated, yet compliant system. Read more about it in our white paper.
             </p>
-            <a target="_blank" href="https://antv.alipay.com/zh-cn/g2/3.x/index.html" key="a">
+            <a target="_blank" href={"asd"} key="a">
               <Button type="primary">
-                开始使用
+                White Paper
               </Button>
             </a>
+
           </QueueAnim>
         </div>
       </Element>
