@@ -1,15 +1,9 @@
-### ant v
-
-ant v 里的 landing page. 
-
-脚手架使用的是： [antd-init](https://github.com/ant-design/antd-init);
+# syndlend-website
+Website to showcase the SyndLend product
 
 ## preview
 
-https://antv.alipay.com/zh-cn/index.html
-
-https://ant-motion.github.io/ant-v-landing-page/
-
+https://syndlend.consensolabs.com
 
 ## install
 ```
@@ -21,3 +15,4 @@ $ npm i
 ```
 $ npm start
 ```
+
