@@ -5,7 +5,6 @@ import { Button } from 'antd';
 import { Element } from 'rc-scroll-anim';
 import BannerImage from './BannerImage';
 import { assets } from './data';
-// import whitepaper from './static/assets/fedlend-whitepaper-v1.pdf';
 
 class Banner extends React.PureComponent {
   static propTypes = {
@@ -35,9 +34,10 @@ class Banner extends React.PureComponent {
             <h1 key="h1">SyndLend</h1>
             <p className="main-info" key="p">
              DLT based syndicated loan platform to create a speedy, cost efficient,
-                transparent, dis-intermediated, yet compliant system. Read more about it in our white paper.
+                transparent, dis-intermediated, yet compliant system.
+                Read more about it in our white paper.
             </p>
-            <a target="_blank" href={"asd"} key="a">
+            <a target="_blank" href='https://syndlend.consensolabs.com/syndlend-whitepaper-v1.pdf' key="a">
               <Button type="primary">
                 White Paper
               </Button>
