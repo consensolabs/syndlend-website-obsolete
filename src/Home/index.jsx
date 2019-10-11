@@ -9,8 +9,15 @@ import Page3 from './Page3';
 import Page4 from './Page4';
 import Page5 from './Page5';
 import Page6 from './Page6';
+import Team from './Team';
+import Roadmap from './Roadmap';
 import Footer from './Footer';
 import './static/style';
+import './less/antMotionStyle.less';
+import {
+    TeamDataSource,
+    RoadmapDataSource,
+} from './data';
 
 
 let isMobile = false;
@@ -44,7 +51,22 @@ class Home extends React.PureComponent {
         <Page1 key="page1" />,
         <Page3 key="page3" />,
         <Page4 key="page4" isMobile={this.state.isMobile} />,
-        <Page6 key="page6" />,
+
+
+        <Roadmap
+              id="Content9_0"
+              key="Content9_0"
+              dataSource={RoadmapDataSource}
+              isMobile={this.state.isMobile}
+          />,
+
+        <Team
+              id="Content8_0"
+              key="Content8_0"
+              dataSource={TeamDataSource}
+              isMobile={this.state.isMobile}
+       />,
+
         <Footer key="footer" />,
         <DocumentTitle title="SyndLend" />,
       ]
