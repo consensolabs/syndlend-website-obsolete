@@ -37,7 +37,7 @@ class Banner extends React.PureComponent {
                 transparent, dis-intermediated, yet compliant system.
                 Read more about it in our white paper.
             </p>
-            <a target="_blank" href='https://syndlend.consensolabs.com/syndlend-whitepaper-v1.pdf' key="a">
+            <a target="_blank" href='https://syndlend.com/syndlend-whitepaper-v1.pdf' key="a">
               <Button type="primary">
                 White Paper
               </Button>

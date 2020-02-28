@@ -5,6 +5,11 @@ import product from './static/images/product.png';
 import bank from './static/images/bank.png';
 import team from './static/images/team.png';
 
+import koshikImg from './static/images/koshik.jpg';
+import manmohanImg from './static/images/manmohan.jpeg';
+import jaswanthImg from './static/images/jaswanth.png';
+import adityaImg from './static/images/aditya.jpg';
+
 export const assets = 'https://gw.alipayobjects.com/os/s/prod/antv/assets';
 const base = 'https://antv.alipay.com/';
 
@@ -116,7 +121,7 @@ export const TeamDataSource = {
                     img: {
                         className: 'content8-img',
                         children:
-                            'https://media.licdn.com/dms/image/C5103AQE59D-dyOysMQ/profile-displayphoto-shrink_200_200/0?e=1576108800&v=beta&t=UM7cyajk_stOG4g7H1JX5pYpB0H7PPVC1-mpdGKV9y8',
+                        koshikImg
                     },
                     title: { className: 'content8-title', children: 'Koshik Raj' },
                     content: {
@@ -134,8 +139,7 @@ export const TeamDataSource = {
                     className: 'content8-block',
                     img: {
                         className: 'content8-img',
-                        children:
-                            'https://media.licdn.com/dms/image/C5103AQE_c9LIBwQAiw/profile-displayphoto-shrink_200_200/0?e=1576108800&v=beta&t=uRVTttx-v5tJwuZ9yG8JDambt7ui-vmQMfNW4JdFwT8',
+                        children: manmohanImg
                     },
                     title: { className: 'content8-title', children: 'Manmohan Saxena' },
                     content: {
@@ -173,13 +177,30 @@ export const TeamDataSource = {
                     className: 'content8-block',
                     img: {
                         className: 'content8-img',
-                        children:
-                            'https://careersoftomorrow.amityonline.com/Home/app/images/SIGChair.png',
+                        children: jaswanthImg
                     },
                     title: { className: 'content8-title', children: 'Jaswanth Reddy' },
                     content: {
                         className: 'content8-content',
-                        children: 'Developer',
+                        children: 'Developer'
+                    },
+                },
+            },
+            {
+                name: 'block2',
+                md: 6,
+                xs: 24,
+                className: 'content8-block-wrapper',
+                children: {
+                    className: 'content8-block',
+                    img: {
+                        className: 'content8-img',
+                        children: adityaImg
+                    },
+                    title: { className: 'content8-title', children: 'Aditya Srivastava' },
+                    content: {
+                        className: 'content8-content',
+                        children: 'Blockchain Developer Intern'
                     },
                 },
             },
